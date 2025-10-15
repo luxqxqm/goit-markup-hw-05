@@ -543,6 +543,7 @@ transform: translateY(0%);
     display: flex;
     margin-bottom: 16px;
     align-items: center;
+    gap: 24px;
 }
 
 .input-footer{
@@ -555,12 +556,16 @@ transform: translateY(0%);
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     transition: border 250ms ease-in;
-    padding: 8px 16px;
+    padding-left: 16px;
     margin-right: 24px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 }
 
 .input-footer::placeholder{
-    font-size: 12px;
     color: #FFFFFF;
     pointer-events: none;
 }
@@ -583,8 +588,7 @@ transform: translateY(0%);
 }
 
 .icon-plane{
-
-
+    margin-left: 16px;
 }
 
 .sub-config{
@@ -592,6 +596,17 @@ transform: translateY(0%);
     justify-content: center;
     align-items: center;
     fill: #FFFFFF;
+    min-width: 165px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+
 }
 
 .sub-config:hover, .sub-config:focus{
