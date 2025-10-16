@@ -698,6 +698,7 @@ transform: translateY(0%);
 
 .input-container{
     position: relative;
+    margin-bottom: 16px;
     
 }
 
