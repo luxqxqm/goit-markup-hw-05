@@ -768,6 +768,7 @@ transform: translateY(0%);
     fill: #4D5AE5 ;
 }
 
+
 .model-form-message{
     resize: none;
     padding: 8px 16px;
@@ -838,8 +839,12 @@ transform: translateY(0%);
 .model-term .check-privacy {
     width: 16px;
     height: 16px;
-    accent-color: #4d5ae5;
-    /* фіолетовий чекбокс */
+}
+
+.check-privacy:checked + .span-privacy{
+    fill: #F4F4FD;
+    background-color: #404bbf;
+    border: none;
 }
 
 .link-checkbox {
@@ -877,6 +882,7 @@ transform: translateY(0%);
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-submit:hover {
