@@ -715,8 +715,6 @@ transform: translateY(0%);
     margin-bottom: 16px;
 }
 
-.model-form{
-}
 
 .form-container{
     margin-bottom: 16px;
@@ -839,6 +837,8 @@ transform: translateY(0%);
 .model-term .check-privacy {
     width: 16px;
     height: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 
 .check-privacy:checked + .span-privacy{
