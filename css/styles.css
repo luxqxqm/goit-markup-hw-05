@@ -826,6 +826,10 @@ transform: translateY(0%);
     margin-bottom: 24px;
 }
 
+.svg-checkbox{
+
+}
+
 .model-term {
     display: flex;
     align-items: center;
@@ -842,7 +846,7 @@ transform: translateY(0%);
 
 }
 
-.check-privacy:checked + .span-privacy{
+.check-privacy:checked ~ .label-privacy .span-privacy{
     fill: #F4F4FD;
     background-color: #404bbf;
     border: none;
