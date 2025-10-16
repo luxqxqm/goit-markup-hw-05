@@ -855,8 +855,6 @@ transform: translateY(0%);
 
 .label-privacy{
     font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
     color: #8e8f99;
 }
 
@@ -880,7 +878,6 @@ transform: translateY(0%);
     padding: 12px 0;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
     margin-top: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
